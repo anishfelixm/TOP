@@ -9,10 +9,15 @@ console.log(age);
 age = 40;
 console.log(age);
 
-const pi = 3.14;
+const PI = 3.14;
 console.log(pi);
 
 console.log((3+2) - 76*(1+1));
+
+let one = 1,
+    two = 2;
+alert(one);
+alert(two);
 
 //1
 console.log(23+97);
