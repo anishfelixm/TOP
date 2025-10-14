@@ -51,6 +51,12 @@ let a7 = new Number(500);
 console.log(a6 == a7);
 console.log(a6 === a7);
 
+
+let a8 = "74";
+console.log(a8+3);
+a8 = Number(a8);
+console.log(a8+3);
+
 //1
 console.log(23+97);
 //2
