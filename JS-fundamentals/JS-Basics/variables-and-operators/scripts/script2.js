@@ -25,3 +25,8 @@ word.replace("world", "WoRlD");
 console.log(word);
 let newWord = "hello, world";
 newWord.split(",");
+
+console.log(`Is 5 greater than 4: ${5 > 4}`);
+const comp = 'Z' > 'A';
+console.log(`Is Z > A : ${comp}`);
+console.log("null === undefined : " + (null === undefined));
