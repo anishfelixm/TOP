@@ -42,6 +42,16 @@ true || console.log("not printed");
 false || console.log("printed");
 console.log( null || 2 && 3 || 4 ); // chain of OR will return ffirst truthy value. but due to && precedence higher 2&&3 is first calculated which returns 3 following the chaining of &&. then the chaining of OR is calculated which returns 3 as it's the first truthy value.
 
+let shoppingDone = false;
+let childAllowance;
+
+if (shoppingDone === true) {
+  childAllowance = 10;
+} else {
+  childAllowance = 5;
+}
+console.log(childAllowance);
+
 
 let text;
 if (Math.random() < 0.5) {
