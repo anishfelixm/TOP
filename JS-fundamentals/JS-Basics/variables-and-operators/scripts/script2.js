@@ -52,6 +52,11 @@ if (shoppingDone === true) {
 }
 console.log(childAllowance);
 
+let isBirthday = (prompt("Is it Mrs. Smith birthday? (true / false)")) == "true";
+const birthdayGreeting = isBirthday
+  ? "Happy birthday Mrs. Smith — we hope you have a great day!"
+  : "Good morning Mrs. Smith.";
+console.log(birthdayGreeting);
 
 let text;
 if (Math.random() < 0.5) {
