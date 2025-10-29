@@ -31,3 +31,11 @@ All the elements in a HTML page are part of a tree whose root starts at html and
 
 ### Functions
 
+paramters are the items passed to a function in the function description. Function arguments are the actual values passed to the function. 
+> function favoriteAnimal(animal) {      // function declaration
+>    return animal + " is my favorite animal!"
+> }
+> 
+> const message = favoriteAnimal('Goat') // function call with argument
+> console.log(message)
+
