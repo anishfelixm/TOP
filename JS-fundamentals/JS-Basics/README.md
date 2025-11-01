@@ -39,3 +39,4 @@ paramters are the items passed to a function in the function description. Functi
 > const message = favoriteAnimal('Goat') // function call with argument
 > console.log(message)
 
+To give parameters default values just use "= value" i.e. function hello \(name = "admin"\). 
