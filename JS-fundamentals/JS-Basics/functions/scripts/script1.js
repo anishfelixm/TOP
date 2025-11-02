@@ -4,3 +4,9 @@ function helloWorld(name) {
 }
 
 console.log(helloWorld(prompt("Give a name")));
+
+/* Anonymous function - logkey */
+textBox.addEventListener("keydown", function (event) {
+  console.log(`You pressed "${event.key}".`);
+});
+
