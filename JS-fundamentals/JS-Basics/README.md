@@ -31,16 +31,20 @@ All the elements in a HTML page are part of a tree whose root starts at html and
 
 ### Functions
 
-paramters are the items passed to a function in the function description. Function arguments are the actual values passed to the function. 
+paramters are the items passed to a function in the function description. Function arguments are the actual values passed to the function.
 > function favoriteAnimal(animal) {      // function declaration
->    return animal + " is my favorite animal!"
+> return animal + " is my favorite animal!"
 > }
-> 
+>
 > const message = favoriteAnimal('Goat') // function call with argument
 > console.log(message)
 
-To give parameters default values just use "= value" i.e. function hello \(name = "admin"\). There's also a concept of anonymous functions which are functions without names.
+To give parameters default values just use "= value" i.e. function hello (name = "admin"). There's also a concept of anonymous functions which are functions without names.
 > (function () {
->    alert("hello");
+> alert("hello");
 > });
-
+Alternative to anonymous function is the arrow function. E.g:
+> textBox.addEventListene("keydown", (event) => {
+> console.log(`You pressed "${event.key}".`);
+> });
+Variables defined in global scope are accessible from everywhere in the code. Variables defined inside a function have their scope only inside the function body and cannot be accessed from outside the function body.
